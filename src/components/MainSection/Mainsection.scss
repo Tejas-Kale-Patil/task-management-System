@@ -1,0 +1,34 @@
+.mainSec{
+    overflow-x: hidden;
+    overflow-y:scroll ;
+    height: calc(100vh - 90px) !important;
+
+
+.editBtn:hover{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius:5px ;
+}
+.deleteBtn:hover{
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+    border-radius:5px ;
+}
+}
+.mainSec::-webkit-scrollbar {
+    width: 3px;
+  }
+  .mainSec::-webkit-scrollbar-thumb {
+    background-color: red; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners for the handle */
+  }
+
+@media only screen and (max-width: 767px) {
+    .mainSec{
+        height: calc(100vh - 160px) !important;
+        overflow-x: hidden;
+        overflow-y:scroll ;
+    }        
+}
